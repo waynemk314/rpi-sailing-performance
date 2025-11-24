@@ -73,9 +73,9 @@ async def monitor_sailing_data():
                     # Print formatted output
                     print(f"STW: {current_data['STW']:.1f} kts | "
                           f"AWA: {current_data['AWA']:.1f}° | "
-                          f"AWS: {current_data['AWS']:.1f} kts | ")
-                          
-
+                          f"AWS: {current_data['AWS']:.1f} kts | "
+                          f"TWA: {current_data['TWA']:.1f}° | "
+                          f"TWS: {current_data['TWS']:.1f} kts")
 
     except Exception as e:
         print(f"Connection Error: {e}")
