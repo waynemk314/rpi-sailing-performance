@@ -417,7 +417,7 @@ if __name__ == "__main__":
     parser.add_argument('--port', default=None, help='Serial port for YDNU-02')
     parser.add_argument('--window', type=float, default=10.0,
                         help='Averaging window in seconds')
-    parser.add_argument('--interval', type=float, default=1.0,
+    parser.add_argument('--interval', type=float, default=5.0,
                         help='N2K update interval in seconds')
     
     args = parser.parse_args()
